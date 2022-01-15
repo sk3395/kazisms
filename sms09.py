@@ -55,7 +55,7 @@ logo=(green+"""
 ╚════██║██╔══██║██║  ██║██╔══██║██║   ██║██║╚██╗██║
 ███████║██║  ██║██████╔╝██║  ██║╚██████╔╝██║ ╚████║
 ╚══════╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
-                                                   
+                     Update Tool                                
        
                                                   
  """)
@@ -66,7 +66,7 @@ logo=(green+"""
 
 
 
-line=(red+"=====================================================")
+line=(green+"=====================================================")
 
 tversion=(cyan+"\t\t   Version : 1.0.3 ")
 
@@ -74,7 +74,7 @@ line2=("\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~")
  
 dtls=(green+"\t\t It’s Kazi The Brand ")
 
-note=(cyan+"Hello Bangladesh,Welcome to My Update Tool.Thanks for use my tool")
+note=(cyan+"Hello Bangladesh,Welcome to My Update Tool.Thanks for use my tool.")
 
 print(logo)
 
@@ -96,8 +96,8 @@ print(line)
 
 print(' ')
 
-number=str(input(yellow+"[➙] Enter Your Number : "))
-amount=int(input(yellow+"[➙] Enter The Amount : "))
+number=str(input(pink+"[➙] Enter Your Number : "))
+amount=int(input(pink+"[➙] Enter The Amount : "))
 
 url1 = "https://ss.binge.buzz/otp/send/login"
 
@@ -147,5 +147,5 @@ for i in range (amount):
 	print(str(i+1)+green+'.	 ➙SMS SENT SUCCESSFUL BY SADHON 🔥💣' )
 	
 print('					')
-print(cyan+'\t\tThanks For Using My Tools.')
+print(cyan+'\t\tThanks For Using My Tools.If tou have any problem by this tool,Knock me on Facebook.Stay with me for next update')
 
