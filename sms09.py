@@ -96,8 +96,8 @@ print(line)
 
 print(' ')
 
-number=str(input(pink+"[➙] Enter Your Number : "))
-amount=int(input(pink+"[➙] Enter The Amount : "))
+number=str(input(red+"[➙] Enter Your Number : "))
+amount=int(input(red+"[➙] Enter The Amount : "))
 
 url1 = "https://ss.binge.buzz/otp/send/login"
 
