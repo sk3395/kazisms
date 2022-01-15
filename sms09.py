@@ -44,7 +44,7 @@ cyan  = "\033[96m"
 
 end = '\033[0m'
 
-purple="\033[0;35m"
+purple="\033[0;45m"
 
 logo=(green+""" 
 
@@ -86,8 +86,8 @@ print(line)
 
 print(' ')
 
-number=str(input(red+"[➙] Enter Your Number : "))
-amount=int(input(cyan+"[➙] Enter The Amount : "))
+number=str(input(green+"[➙] Enter Your Number : "))
+amount=int(input(yellow+"[➙] Enter The Amount : "))
 
 url1 = "https://ss.binge.buzz/otp/send/login"
 
